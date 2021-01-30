@@ -22,4 +22,12 @@
 `enter` emmet rövidítést alakítsuk át html kóddá.
 
 
-https://docs.emmet.io/cheat-sheet/
+https://docs.emmet.io/cheat-sheet/  
+
+# Hasznos linkek
+- https://trello.com A feladatok kiosztásához, munkafolyamat követéséhez
+- https://github.com/
+- https://www.figma.com Wireframe elkészítéséhez
+- https://imagecompressor.com/ Kép tömörítéshez
+- https://getbootstrap.com/docs/4.6/getting-started/introduction/ Bootstrap
+https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf VS Code billentyűkombinációk (angol)
