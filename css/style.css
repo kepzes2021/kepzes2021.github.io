@@ -1,4 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+/*oldalbeállítások*/
+body:not(#home){
+    background-color: #fbefdb;
+}
+
+#home{
+    height: 100vh;
+    background-image: url(../img/homebg.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+#home .intro{   
+    color: white;        
+}
+
+#home .intro .col-md-8{
+    background-color: rgba(0,0,0,0.4);    
+}
+
+/*Navigáció beállítása*/
+
+nav{
+    background-color:  #1f5b25;
+}
+
+.logo img{
+    width: 40px;
+}
+
+/*fejlec*/
+
+.banner{
+    background-image: url(../img/banner.jpg);
+    height: 400px;
+    background-position: center center;    
+    background-size: cover;
+}
+
+/*Oldal cím*/
+
+h1{
+    font-family: 'Fredericka the Great', cursive;
+    color: #1f5b25;
+    text-align: center;
+}
+
+/*card beállítások*/
+
 .kave {
     color: #1f5b25;
     border: 1px solid #1f5b25;
@@ -18,30 +69,14 @@
     box-shadow: 0px 0px 5px #1f5b25;
 }
 
-h1{
-    font-family: 'Fredericka the Great', cursive;
-    color: #1f5b25;
+h5{
     text-align: center;
+    font-variant: small-caps;
+    color: #1f5c25;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.navbar{
-    background-color:  #1f5b25;
-}
-
-.logo img{
-    width: 40px;
-}
-
-body{
-    background-color: #FBEEDB;
-}
-
-.banner{
-    background-image: url(../img/banner.jpg);
-    height: 400px;
-    background-position: center center;    
-    background-size: cover;
-}
+/*lábléc*/
 
 .footer{
     background-color: #1f5b25;
@@ -50,7 +85,6 @@ body{
 
 footer li{
     list-style-type: none;
-
 }
 
 footer li>img{
@@ -63,4 +97,5 @@ footer li>img{
     width: 40px;
     right: 40px;
     top: 20px;
+    z-index:5;
 }
