@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
 
 /*oldalbeállítások*/
-body:not(#home){
+body:not(#home), .modal-content{
     background-color: #fbefdb;
+}
+
+.modal-header, .modal-footer{
+    background-color: rgb(209, 190, 154);
 }
 
 #home{
@@ -62,14 +66,9 @@ h1:not(#home h1){
     background-color: #fff;
 }
 
-.kave h2 {
-    font-size: 1rem;
-    text-align: center;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
 
-.kave:hover {
+
+.card:hover {
     box-shadow: 0px 0px 5px #1f5b25;
 }
 
@@ -78,6 +77,10 @@ h5{
     font-variant: small-caps;
     color: #1f5c25;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 /*lábléc*/
