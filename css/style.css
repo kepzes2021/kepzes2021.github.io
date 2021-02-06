@@ -106,3 +106,8 @@ footer li>img{
     top: 20px;
     z-index:5;
 }
+
+.blog-img {
+    border: 1px solid #1F5C25;
+    border-radius: 4px;
+}
