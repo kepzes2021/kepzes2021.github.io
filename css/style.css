@@ -14,7 +14,8 @@ body:not(#home){
 }
 
 #home .intro{   
-    color: white;        
+    color: white; 
+    height: 100vh;       
 }
 
 #home .intro .col-md-8{
@@ -44,8 +45,11 @@ nav{
 
 h1{
     font-family: 'Fredericka the Great', cursive;
-    color: #1f5b25;
     text-align: center;
+}
+
+h1:not(#home h1){    
+    color: #1f5b25;    
 }
 
 /*card beállítások*/
